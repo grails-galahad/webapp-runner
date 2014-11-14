@@ -51,8 +51,9 @@ import org.apache.catalina.startup.Tomcat;
 import org.apache.catalina.users.MemoryUserDatabase;
 import org.apache.catalina.users.MemoryUserDatabaseFactory;
 
-import com.beust.jcommander.JCommander;
+import org.apache.coyote.http11.AbstractHttp11Protocol;
 
+import com.beust.jcommander.JCommander;
 
 /**
  * This is the main entry point to webapp-runner. Helpers are called to parse the arguments.
