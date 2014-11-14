@@ -6,18 +6,18 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.github.jsimone</groupId>
+    <groupId>com.github.grails-galahad</groupId>
     <artifactId>webapp-runner</artifactId>
-    <version>7.0.40.2-SNAPSHOT</version>
+    <version>7.0.40</version>
 
 
     <name>webapp-runner</name>
-    <description>Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command.</description>
-    <url>http://jsimone.github.com/webapp-runner</url>
+    <description>Lightweight Web Application Launcher</description>
+    <url>https://github.com/grails-galahad/webapp-runner</url>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
-            <url>https://github.com/jsimone/webapp-runner/blob/master/src/main/resources/license/header.txt</url>
+            <url>https://github.com/grails-galahad/webapp-runner/blob/master/src/main/resources/license/header.txt</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -28,30 +28,30 @@
         </repository>
     </distributionManagement>
     <scm>
-        <url>https://github.com/jsimone/webapp-runner</url>
-        <connection>scm:git:git@github.com:jsimone/webapp-runner.git</connection>
-        <developerConnection>scm:git:git@github.com:jsimone/webapp-runner.git</developerConnection>
+        <url>https://github.com/grails-galahad/webapp-runner</url>
+        <connection>scm:git:git@github.com:grails-galahad/webapp-runner.git</connection>
+        <developerConnection>scm:git:git@github.com:grails-galahad/webapp-runner.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
-            <id>jsimone</id>
-            <name>John Simone</name>
-            <email>john@heroku.com</email>
+            <id>alesbukovsky</id>
+            <name>Ales Bukovsky</name>
+            <email>ales.bukovsky@gmail.com</email>
         </developer>
     </developers>
     <mailingLists>
         <mailingList>
             <name>Webapp runner issues</name>
-            <archive>https://github.com/jsimone/webapp-runner/issues?state=closed</archive>
-            <subscribe>https://github.com/jsimone/webapp-runner/toggle_watch</subscribe>
-            <unsubscribe>https://github.com/jsimone/webapp-runner/toggle_watch</unsubscribe>
-            <post>https://github.com/jsimone/webapp-runner/issues/new</post>
+            <archive>https://github.com/galahad-grails/webapp-runner/issues?state=closed</archive>
+            <subscribe>https://github.com/galahad-grails/webapp-runner/toggle_watch</subscribe>
+            <unsubscribe>https://github.com/galahad-grails/webapp-runner/toggle_watch</unsubscribe>
+            <post>https://github.com/galahad-grails/webapp-runner/issues/new</post>
         </mailingList>
     </mailingLists>
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/jsimone/webapp-runner/issues/new</url>
+        <url>https://github.com/galahad-grails/webapp-runner/issues/new</url>
     </issueManagement>
 
     <properties>
