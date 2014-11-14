@@ -23,6 +23,18 @@ or
 
 Prints out all arguments accepted
 
+## Changes in Galahad Fork
+
+Additional command line arguments:
+
+    --max-post-size [bytes]
+
+Sets default maximum allowed HTTP POST request size. Tomcat's default is 2MB. Value 0 means unlimited.
+
+    --max-http-header-size [bytes]
+
+Sets default maximum allowed HTTP header size. Tomcat's default is 8KB.
+
 ## Using with Maven in your project
 
 You can use the Maven dependency plugin to download webapp-runner as part of your build. This will eliminate the need for any external dependencies other than those specified in your build to run your application.
